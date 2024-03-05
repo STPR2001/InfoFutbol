@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="stylesheet" href="Teams.css">
+    <title>InfoFutbol</title>
+</head>
+<body>
+    
+<main class="container">
+<h1>InfoFutbol</h1>
+<h2>Informacion de equipos</h2>
+
+<form id="form">
+    <label>
+        ID del equipo
+        <input required id="input" type="text" placeholder="Introduce el ID">
+        <small>Por ejemplo: 123</small>
+    </label>
+    <button type="submit" id="submit">
+        Buscar informacion del equipo
+    </button>
+</form>
+
+
+<div id="contentInfo">
+
+<pre id="results"></pre>
+
+<p id="name"></p>
+<p id="stadium"></p>
+<p id="capacity"></p>
+<p id="webSite"></p>
+<p id="address"></p>
+
+</div>
+
+</main>
+
+</body>
+<footer>
+    <p style="text-align: center;"><a href="https://starttweb.com/">StarttWeb</a></p>
+
+    <script src="Teams.js"></script>
+</footer>
+</html>

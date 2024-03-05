@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="stylesheet" href="Transfers.css">
+    <title>InfoFutbol</title>
+</head>
+<body>
+    
+<main class="container">
+<h1>InfoFutbol</h1>
+<h2>Informacion del fichajes</h2>
+
+<form id="form">
+    <label>
+        ID del jugador
+        <input required id="input" type="text" placeholder="Introduce el ID">
+        <small>Por ejemplo: 123</small>
+    </label>
+    <button type="submit" id="submit">
+        Buscar informacion del jugador
+    </button>
+</form>
+
+
+<div id="contentInfo">
+<pre id="results"></pre>
+
+
+<h5 id="namePlayer"></h3>
+<p id="transfer1In"></p>
+<p id="transfer1Out"></p>
+</div>
+
+</main>
+
+</body>
+<footer>
+    <p style="text-align: center;"><a href="https://starttweb.com/">StarttWeb</a></p>
+
+    <script src="Transfers.js"></script>
+</footer>
+</html>
